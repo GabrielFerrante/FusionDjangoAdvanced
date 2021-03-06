@@ -1,0 +1,13 @@
+__pycache__
+
+*.*~
+
+*.pyc
+
+.vscode
+
+.env
+
+.idea
+
+template/*
