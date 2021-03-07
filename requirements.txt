@@ -73,9 +73,6 @@ Markdown==3.2.2
 MarkupSafe==1.1.1
 mccabe==0.6.1
 messytables==0.15.2
-mkl-fft==1.2.0
-mkl-random==1.2.0
-mkl-service==2.3.0
 monotonic==1.5
 more-itertools==8.5.0
 mysql==0.0.2
