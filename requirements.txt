@@ -16,6 +16,7 @@ cffi==1.14.0
 chardet==3.0.4
 click==7.1.2
 colorama==0.4.3
+coverage==5.5
 cryptography==2.9.2
 cssselect2==0.3.0
 dash==1.17.0
@@ -73,6 +74,10 @@ Markdown==3.2.2
 MarkupSafe==1.1.1
 mccabe==0.6.1
 messytables==0.15.2
+mkl-fft==1.0.15
+mkl-random==1.1.1
+mkl-service==2.3.0
+model-mommy==2.0.0
 monotonic==1.5
 more-itertools==8.5.0
 mysql==0.0.2
