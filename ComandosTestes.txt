@@ -1,0 +1,4 @@
+coverage reports
+coverage run manage.py test
+coverage html
+python -m http.server
