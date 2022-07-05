@@ -5,6 +5,9 @@ from django.views.generic import FormView
 from .forms import ContatoForm
 from django.urls import reverse_lazy
 from django.contrib import messages
+from django.utils.translation import gettext as _
+from django.utils import translation
+
 
 # Create your views here.
 #CLASS BASED VIEW
@@ -15,21 +18,25 @@ class IndexView(FormView):
 
     def get_context_data(self,**kwargs):
         context = super(IndexView,self).get_context_data(**kwargs)
+        lang = translation.get_language()
+
         #ORDERNAR POR QUALQUER CAMPO 
         context['servicos'] = Servico.objects.order_by('?').all()
         context['funcionario'] = Funcionario.objects.order_by('?').all()
         context['featureRight'] = Feature.objects.filter(id__lte=Feature.objects.count()/2)
         context['featureLeft'] = Feature.objects.filter(id__gt=Feature.objects.count()/2)
+        context['lang'] = lang
+        translation.activate(lang)
         return context
     
 
     def form_valid(self, form, *args, **kwargs):
         form.sendEmail()
-        messages.success(self.request, 'E-mail enviado com sucesso')
+        messages.success(self.request, _('E-mail enviado com sucesso'))
         return super(IndexView, self).form_valid(form, *args, **kwargs)
 
     def form_invalid(self, form, *args, **kwargs):
-        messages.error(self.request, 'Erro ao enviar o e-mail')
+        messages.error(self.request, _('Erro ao enviar o e-mail'))
         return super(IndexView, self).form_invalid(form, *args, **kwargs)
 
 

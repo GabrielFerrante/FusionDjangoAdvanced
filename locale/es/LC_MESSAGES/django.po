@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-04 22:36-0300\n"
+"PO-Revision-Date: 2022-07-04 22:39-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1\n"
+
+#: core/forms.py:9 core/models.py:65
+msgid "Nome"
+msgstr "Nomble"
+
+#: core/forms.py:10
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: core/forms.py:11
+msgid "Assunto"
+msgstr "Asunto"
+
+#: core/forms.py:12
+msgid "Mensagem"
+msgstr "Mensaje"
+
+#: core/models.py:20
+msgid "Criação"
+msgstr "Creación"
+
+#: core/models.py:22
+msgid "Atualização"
+msgstr "Actualización"
+
+#: core/models.py:23
+msgid "Ativo?"
+msgstr "¿Activo?"
+
+#: core/models.py:32 core/models.py:89
+msgid "Engrenagem"
+msgstr "Engranaje"
+
+#: core/models.py:33
+msgid "Design"
+msgstr "Diseño"
+
+#: core/models.py:34
+msgid "Usuários"
+msgstr "Usuarios"
+
+#: core/models.py:35 core/models.py:91
+msgid "Camadas"
+msgstr "Capas"
+
+#: core/models.py:36
+msgid "Mobile"
+msgstr "Móvil"
+
+#: core/models.py:37 core/models.py:87
+msgid "Foguete"
+msgstr "Cohete"
+
+#: core/models.py:39 core/models.py:47
+msgid "Serviço"
+msgstr "Servicio"
+
+#: core/models.py:40 core/models.py:96
+msgid "Descrição"
+msgstr "Descripción"
+
+#: core/models.py:42 core/models.py:95
+msgid "Ícone"
+msgstr "Icono"
+
+#: core/models.py:48 core/templates/base.html:49
+msgid "Serviços"
+msgstr "Servicios"
+
+#: core/models.py:55 core/models.py:58
+msgid "Cargo"
+msgstr "Oficina"
+
+#: core/models.py:59
+msgid "Cargos"
+msgstr "Posiciones"
+
+#: core/models.py:69
+msgid "Bio"
+msgstr "Bio"
+
+#: core/models.py:72
+msgid "Imagem"
+msgstr "Imagen"
+
+#: core/models.py:78
+msgid "Funcionário"
+msgstr "Empleado"
+
+#: core/models.py:79
+msgid "Funcionários"
+msgstr "Empleados"
+
+#: core/models.py:88
+msgid "Laptop"
+msgstr "Computadora portátil"
+
+#: core/models.py:90
+msgid "Folha"
+msgstr "Sábana"
+
+#: core/models.py:94
+msgid "Titulo"
+msgstr "Título"
+
+#: core/templates/404.html:10
+msgid "Página não encontrada"
+msgstr "Página no encontrada"
+
+#: core/templates/404.html:11
+msgid "Infelizmente a página que você procura não está disponível"
+msgstr "Lamentablemente, la página que busca no está disponible"
+
+#: core/templates/404.html:13 core/templates/500.html:13
+msgid "Volte para a página inicial"
+msgstr "Volver a la página de inicio"
+
+#: core/templates/500.html:10
+msgid "Erro no servidor"
+msgstr "Error del servidor"
+
+#: core/templates/500.html:11
+msgid "Servidor não conseguiu responder"
+msgstr "El servidor no ha respondido"
+
+#: core/templates/base.html:44
+msgid "Inicio"
+msgstr "Comienzo"
+
+#: core/templates/base.html:54
+msgid "Equipe"
+msgstr "Equipo"
+
+#: core/templates/base.html:59
+msgid "Preço"
+msgstr "Precio"
+
+#: core/templates/base.html:64
+msgid "Clientes"
+msgstr "Clientes"
+
+#: core/templates/base.html:69
+msgid "Contato"
+msgstr "Contacto"
+
+#: core/templates/hero.html:8
+msgid "Com a Fusion"
+msgstr "Con Fusión"
+
+#: core/templates/hero.html:9
+msgid "Você irá mais longe."
+msgstr "Irás más lejos."
+
+#: core/templates/hero.html:11
+msgid "Saiba mais"
+msgstr "Más información"
+
+#: core/templates/hero.html:12
+msgid "Entre em contato"
+msgstr "Entre en contacto"
+
+#: core/views.py:35
+msgid "E-mail enviado com sucesso"
+msgstr "Email enviado con éxito"
+
+#: core/views.py:39
+msgid "Erro ao enviar o e-mail"
+msgstr "Error al enviar el correo electrónico"

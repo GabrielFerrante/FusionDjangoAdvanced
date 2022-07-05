@@ -1,6 +1,7 @@
 {% load static %}
+{% load i18n %}
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="{{lang}}">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -40,32 +41,32 @@
             <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
               <li class="nav-item active">
                 <a class="nav-link" href="#hero-area">
-                  Inicio
+                  {% trans 'Inicio' %} 
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#services">
-                  Serviços
+                 {% trans 'Serviços' %} 
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#team">
-                  Equipe
+                 {% trans 'Equipe' %} 
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#pricing">
-                  Preço
+                 {% trans 'Preço' %} 
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#testimonial">
-                  Clientes
+                {% trans 'Clientes' %}  
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact">
-                  Contato
+                 {% trans 'Contato' %} 
                 </a>
               </li>
             </ul>

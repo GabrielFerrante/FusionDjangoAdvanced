@@ -49,12 +49,15 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    #MiddleWare PARA DETECÇÃO AUTOMÁTICA DE LINGUAGEM
+    'django.middleware.locale.LocaleMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    
 ]
 
 ROOT_URLCONF = 'fusion.urls'
@@ -86,7 +89,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'fusion',
         'USER': 'gabriel',
-        'PASSWORD': 'kzona69bola',
+        'PASSWORD': 'deduda123',
         'HOST':'127.0.0.1',
         'PORT':'5432',
     }
@@ -156,3 +159,7 @@ DEFAULT_FROM_EMAIL = 'contato@fusion.com.br'
 """
 
 LOGOUT_REDIRECT_URL = 'index'
+
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR,'locale'),
+)
