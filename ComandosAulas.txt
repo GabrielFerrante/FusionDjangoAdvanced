@@ -1,0 +1,26 @@
+INstalar o HOMEBREW PARA GERENCIAR PACOTES MAIS RECENTES
+
+https://docs.brew.sh/Homebrew-on-Linux
+
+brew update
+
+brew install gettext
+
+brew link gettext --force
+
+BAIXAR O POEDIT PARA TRADUÇÕES DE TEXTO
+
+https://poedit.net/download
+
+sudo snap install poedit
+
+
+CONFIGURAR VIEWS, MODELS, E FORMS
+
+
+#DEFINE A LINGUAGEM DE TRADUÇÃO
+python3 manage.py makemessages -l es
+
+#COMPILAR AS TRADUÇÕES
+python3 manage.py compilemessages
+
